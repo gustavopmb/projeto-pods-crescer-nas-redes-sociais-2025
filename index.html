@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crescer nas Redes Sociais 2025</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://seusite.com/favicon.ico" type="image/x-icon" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Meta tags SEO -->
+  <meta name="description"
+    content="Aprenda estratégias práticas para crescer no Instagram, TikTok, YouTube e mais. Aumente seu alcance com o e-book definitivo!" />
+  <meta property="og:title" content="Crescer nas Redes Sociais 2025" />
+  <meta property="og:description"
+    content="Descubra como aumentar seu alcance nas redes sociais com estratégias práticas e eficazes!" />
+  <meta property="og:image" content="img/prod1.jpg" />
+  <meta property="og:url" content="https://joaopedropodsclan.com.br/" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1d1f21;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid #ff9900;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .headline-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .headline-section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1d1f21;
+      margin-bottom: 10px;
+    }
+
+    .headline-section p {
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      height: auto;
+    }
+
+    /* Carrossel */
+    .carousel-container {
+      overflow: hidden;
+      margin: 50px auto;
+      max-width: 100%;
+    }
+
+    .carousel-images {
+      display: flex;
+      gap: 20px;
+      animation: scroll 25s linear infinite;
+    }
+
+    .carousel-image {
+      flex-shrink: 0;
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .content-section {
+      margin-top: 60px;
+    }
+
+    .content-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1d1f21;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .content-description {
+      font-size: 1.2rem;
+      color: #444;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .content-box {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border-left: 5px solid #ff9900;
+    }
+
+    .content-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .content-item {
+      display: flex;
+      align-items: flex-start;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .content-item i {
+      font-size: 1.5rem;
+      color: #ff9900;
+      margin-right: 15px;
+      margin-top: 4px;
+    }
+
+    .content-item span {
+      font-weight: 600;
+    }
+
+    .bonus-section {
+      background: white;
+      padding: 30px;
+      border-left: 5px solid #ff9900;
+      margin: 60px 0 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .bonus-section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .bonus-section p {
+      font-size: 1.1rem;
+    }
+
+    .cta-section {
+      background: #ff9900;
+      color: #1d1f21;
+      padding: 50px 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-section h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .cta-section p {
+      font-size: 1.25rem;
+      margin-bottom: 25px;
+    }
+
+    .cta-button {
+      background: #25d366;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 50px;
+      text-decoration: none;
+      display: inline-block;
+      animation: pulse 1.8s infinite;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-button i {
+      margin-right: 10px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1d1f21;
+      color: white;
+      margin-top: 60px;
+      border-top: 4px solid #ff9900;
+    }
+
+    @media (max-width: 768px) {
+      .content-list {
+        grid-template-columns: 1fr;
+      }
+
+      .content-title {
+        font-size: 1.8rem;
+      }
+
+      .content-description {
+        font-size: 1rem;
+      }
+
+      .content-item i {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Crescer nas Redes Sociais 2025</h1>
+  </header>
+
+  <div class="container">
+    <div class="headline-section">
+      <h2>Você Está a Um Passo de Aprender a Técnica que Influenciadores e Marcas Usam para Crescer Rápido!</h2>
+      <p>Tudo com Seu Celular, em Casa, Mesmo Começando do Zero.</p>
+    </div>
+
+    <img src="img/prod1.jpg" alt="E-book Crescer nas Redes Sociais">
+
+    <div class="carousel-container">
+      <div class="carousel-images">
+        <img class="carousel-image" src="img/feedback/fd1.png" alt="Feedback 1">
+        <img class="carousel-image" src="img/feedback/fd2.png" alt="Feedback 2">
+        <img class="carousel-image" src="img/feedback/fd3.png" alt="Feedback 3">
+        <img class="carousel-image" src="img/feedback/fd4.jpg" alt="Feedback 4">
+        <img class="carousel-image" src="img/feedback/fd5.jpg" alt="Feedback 5">
+        <img class="carousel-image" src="img/feedback/fd6.png" alt="Feedback 6">
+        <img class="carousel-image" src="img/feedback/fd1.png" alt="Feedback 1 repeat">
+        <img class="carousel-image" src="img/feedback/fd2.png" alt="Feedback 2 repeat">
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2 class="content-title">O que você irá aprender no E-book?</h2>
+      <p class="content-description">Ao adquirir o E-book "Crescer nas Redes Sociais 2025", você terá acesso a
+        estratégias comprovadas para aumentar seu alcance e engajamento nas redes sociais, incluindo:</p>
+
+      <div class="content-box">
+        <ul class="content-list">
+          <li class="content-item">
+            <i class="fas fa-lightbulb"></i> <span>Técnicas avançadas de criação de conteúdo</span>
+          </li>
+          <li class="content-item">
+            <i class="fas fa-cogs"></i> <span>Como usar o algoritmo do Instagram, TikTok e YouTube a seu favor</span>
+          </li>
+          <li class="content-item">
+            <i class="fas fa-arrow-up"></i> <span>Estratégias para engajamento orgânico e crescimento rápido</span>
+          </li>
+          <li class="content-item">
+            <i class="fas fa-video"></i> <span>Como criar cortes virais para maximizar a exposição do seu
+              conteúdo</span>
+          </li>
+          <li class="content-item">
+            <i class="fas fa-users"></i> <span>Passo a passo para gerar mais seguidores e aumentar sua autoridade
+              online</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bonus-section">
+      <h3>Bônus Exclusivo!</h3>
+      <p>Ao comprar o E-book, você também vai receber um bônus exclusivo: uma checklist de postagens para 30 dias. Esta
+        checklist foi desenvolvida para te ajudar a aplicar imediatamente as estratégias do E-book nas suas redes
+        sociais e garantir resultados rápidos!</p>
+    </div>
+
+    <div class="cta-section">
+      <h2>Não perca tempo! Comece agora mesmo!</h2>
+      <p>Adquira seu E-book e comece a dominar as redes sociais hoje mesmo.</p>
+      <a href="https://api.whatsapp.com/send?phone=5518996347790&text=Oi,%20quero%20adquirir%20o%20E-book%20Crescer%20nas%20Redes%20Sociais%202025!"
+        class="cta-button">
+        <i class="fab fa-whatsapp"></i> Fale comigo no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Crescer nas Redes Sociais. Todos os direitos reservados.<br>
+    <small>Desenvolvido por <a href="https://www.instagram.com/pachecode.dev" target="_blank"
+        style="color: #ff9900; text-decoration: none;">@PacheCode.DEV | @Gustavopmb</a></small>
+  </footer>
+
+</body>
+
+</html>
